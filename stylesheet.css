@@ -12,7 +12,7 @@ html{
 
 body{
     color: bisque;
-    background: #081b29;
+    background: #040e2c;
 }
 
 .header{
@@ -196,10 +196,7 @@ body{
     position: relative;
 }
 
-.container1 {
-    
 
-}
 
 #services {
     color: aliceblue;
@@ -472,8 +469,15 @@ body{
 
 
   /*--------------------css for small screens---------------------*/
-  @media only screen and (max-with: 600px){
+  @media only screen and (max-width: 600px){
+        #header {
+            background-image: url('file:///C:/Users/namga/Desktop/MyPortifolio/smallScreenWallpaper.png');
+        }
 
+        .header-text {
+            margin-top: 100%;
+            font-size: 16px;
+        }
   }
   
 
