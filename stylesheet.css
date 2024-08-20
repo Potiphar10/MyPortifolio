@@ -13,6 +13,7 @@ html{
 body{
     color: bisque;
     background: #040e2c;
+    overflow-x: hidden;
 }
 
 .header{
@@ -191,9 +192,11 @@ body{
 }
 
 .container {
-    padding: 90px;
+    padding: 0 10%;
+    width: 100%;
     display: flex;
     position: relative;
+    flex-wrap: wrap;
 }
 
 
