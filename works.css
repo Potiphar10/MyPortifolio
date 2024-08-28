@@ -1,0 +1,95 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+    color: cyan;
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: cyan;
+}
+
+.header .logo h1 {
+    color: #040e2c;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.navbar a {
+    color: #040e2c;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: #ffd700;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('file:///C:/Users/namga/Desktop/MyPortifolio/Wallpaper.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content h2 {
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Portfolio Section */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 10%;
+    background-color: #f4f4f4;
+}
+
+.portfolio-item {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .portfolio-item {
+        width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .portfolio-item {
+        width: 100%;
+    }
+}
