@@ -62,7 +62,7 @@ body{
     width: 100%;
     justify-content: space-between;
     height: 100vh;
-    background-image: url('file:///C:/Users/namga/Desktop/MyPortifolio/background.png');
+    background-image: url('https://Potiphar10.github.io/MyPortifolio/background.png');
     background-size: cover; /* Adjusts the background image to cover the entire element */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Ensures the image doesn't repeat */
