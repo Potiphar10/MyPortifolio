@@ -502,45 +502,45 @@ body{
 
 
   /*--------------------css for small screens---------------------*/
-  @media only screen and (max-width: 600px) {
-    body {
-        font-size: 14px; /* Adjust the overall font size */
-        padding: 10px; /* Add padding for small screens */
-        background-image: url('C:/Users/Sir_Pope/MyPortifolio/work8.jpg');
+  @media only screen and (max-width: 768px) {
+    /* Adjust the home section */
+    section.home {
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center;
+      text-align: center;
+      padding: 20px;
     }
-
-    .header {
-        padding: 10px 5%;
-        flex-direction: column; /* Stack logo and navbar vertically */
-    }
-
-    .logo {
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
-
-    .navbar a {
-        font-size: 18px;
-        margin-left: 20px; /* Reduce spacing */
-    }
-
-    .home {
-        height: auto; /* Allow flexibility for content */
-        padding: 50px 5%;
-        text-align: center; /* Center-align content for better readability */
-    }
-
+  
+    /* Adjust the heading and content */
     .home-content h1 {
-        font-size: 36px;
+      font-size: 1.8rem; /* Reduce font size */
+      margin-bottom: 10px;
     }
-
-    .home-content h3 {
-        font-size: 24px;
-    }
-
+  
     .home-content p {
-        font-size: 16px;
+      font-size: 1rem;
+      line-height: 1.4;
     }
+  
+    .home-content {
+      margin-bottom: 20px;
+    }
+  
+    /* Adjust the image */
+    .home img {
+      max-width: 80%; /* Shrink the image */
+      height: auto; /* Maintain aspect ratio */
+      margin: 10px 0;
+    }
+  
+    /* Button adjustments */
+    .home-content .btn {
+      padding: 10px 20px;
+      font-size: 1rem;
+    }
+  }
+  
 
     .home-sci a {
         width: 30px;
