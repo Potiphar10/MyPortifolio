@@ -501,59 +501,6 @@ body{
 
 
 
-  /*--------------------css for small screens---------------------*/
-@media (max-width: 600px) {
-    .home-content p {
-        font-size: 0.875rem; /* Smaller font size */
-        line-height: 1.3; /* Adjust line height */
-    }
-
-    .home-content {
-        margin-bottom: 15px; /* Adjust margin */
-    }
-
-    /* Adjust the image */
-    .home img {
-        max-width: 100%; /* Full width */
-        height: auto; /* Maintain aspect ratio */
-        margin: 5px 0; /* Adjust margin */
-    }
-
-    /* Button adjustments */
-    .home-content .btn {
-        padding: 8px 16px; /* Smaller padding */
-        font-size: 0.875rem; /* Smaller font size */
-    }
-
-    .home-sci a {
-        width: 25px; /* Smaller width */
-        height: 25px; /* Smaller height */
-        font-size: 12px; /* Smaller font size */
-        margin: 15px 5px; /* Adjust margin */
-    }
-
-    .about {
-        padding: 15px; /* Adjust padding */
-    }
-}
-
-    .social-icons a {
-        font-size: 24px;
-    }
-
-    .copyright {
-        padding: 15px;
-        font-size: 14px;
-    }
-}
-
-
-
-
-
-
-
-
 
 @keyframes slideRight {
     0%{
@@ -600,3 +547,47 @@ body{
 }
 
 
+/* Media query for small screens */
+@media (max-width: 600px) {
+    .home-content p {
+        font-size: 0.875rem; /* Smaller font size */
+        line-height: 1.3; /* Adjust line height */
+    }
+
+    .home-content {
+        margin-bottom: 15px; /* Adjust margin */
+    }
+
+    /* Adjust the image */
+    .home img {
+        max-width: 100%; /* Full width */
+        height: auto; /* Maintain aspect ratio */
+        margin: 5px 0; /* Adjust margin */
+    }
+
+    /* Button adjustments */
+    .home-content .btn {
+        padding: 8px 16px; /* Smaller padding */
+        font-size: 0.875rem; /* Smaller font size */
+    }
+
+    .home-sci a {
+        width: 25px; /* Smaller width */
+        height: 25px; /* Smaller height */
+        font-size: 12px; /* Smaller font size */
+        margin: 15px 5px; /* Adjust margin */
+    }
+
+    .about {
+        padding: 15px; /* Adjust padding */
+    }
+
+    .social-icons a {
+        font-size: 20px; /* Smaller font size */
+    }
+
+    .copyright {
+        padding: 10px; /* Adjust padding */
+        font-size: 12px; /* Smaller font size */
+    }
+}
