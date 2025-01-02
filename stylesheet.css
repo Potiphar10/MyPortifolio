@@ -502,17 +502,112 @@ body{
 
 
   /*--------------------css for small screens---------------------*/
-  @media only screen and (max-width: 600px){
-        #header {
-            background-image: url('file:///C:/Users/namga/Desktop/MyPortifolio/smallScreenWallpaper.png');
-        }
+  @media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px; /* Adjust the overall font size */
+        padding: 10px; /* Add padding for small screens */
+        background-image: url('C:/Users/Sir_Pope/MyPortifolio/work8.jpg');
+    }
 
-        .header-text {
-            margin-top: 100%;
-            font-size: 16px;
-        }
-  }
-  
+    .header {
+        padding: 10px 5%;
+        flex-direction: column; /* Stack logo and navbar vertically */
+    }
+
+    .logo {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        margin-left: 20px; /* Reduce spacing */
+    }
+
+    .home {
+        height: auto; /* Allow flexibility for content */
+        padding: 50px 5%;
+        text-align: center; /* Center-align content for better readability */
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .home-sci a {
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+        margin: 20px 10px; /* Adjust margin */
+    }
+
+    .about {
+        display: block; /* Stack content vertically */
+        padding: 20px;
+    }
+
+    .about-img {
+        width: 100%;
+        margin-bottom: 20px; /* Add spacing */
+    }
+
+    .about-text h2 {
+        font-size: 30px;
+    }
+
+    .about-text h4 {
+        font-size: 18px;
+    }
+
+    .services-list {
+        flex-direction: column; /* Stack services vertically */
+        gap: 20px;
+    }
+
+    .services-list div {
+        padding: 20px;
+    }
+
+    .works {
+        padding: 20px;
+    }
+
+    .work-sample img {
+        max-width: 100%; /* Make images take up the full width */
+    }
+
+    .contacts-container {
+        flex-direction: column; /* Stack contact sections vertically */
+        padding: 20px;
+    }
+
+    .contact-left, .contact-right {
+        width: 100%; /* Take full width */
+    }
+
+    .contact-right form {
+        width: 100%; /* Adjust form width */
+        padding: 0;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+    }
+
+    .copyright {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+
 
 
 
